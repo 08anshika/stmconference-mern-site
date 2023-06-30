@@ -1,0 +1,35 @@
+body{
+    background-color: #ffff !important;
+}
+.bi-linkedin{
+    color: #0a66c2;
+}
+.bi-youtube{
+    color: red;
+}
+.navbar-collapse{
+    flex-grow: 0 !important;
+}
+.sf, h1{
+    font-size: 80px !important;
+    background-color: rgba(255, 255, 255, 0.274) !important;
+    color: black !important;
+}
+.sf,p{
+    background-color: rgba(255, 255, 255, 0.427) !important;
+    color: black !important;
+    font-size: large;
+    font-weight: bolder;
+}
+
+@media only screen and (max-width: 600px) {
+    .div123 {
+      display: block;
+    }
+    .col-md-4, .div1, .div2{
+        width: 100% !important;  
+    }
+    .carousel-item > img {
+    height: 300px;
+    }
+  }
